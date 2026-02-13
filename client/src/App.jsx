@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,6 +34,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <div className="bg-blue-500 text-white p-4">Tailwind works!</div>
+      <Footer />
     </>
   )
 }
